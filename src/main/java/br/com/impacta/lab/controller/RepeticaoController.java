@@ -29,10 +29,8 @@ public class RepeticaoController {
 		
 		String retorno="";
 		
-	
-		for (int contador=1; contador <= numero; contador ++){
+		for (int contador = 1; contador <= numero; contador ++){
 			retorno = retorno + contador;
-			//contador = contador +1;
 		}
 		
 		return ResponseEntity.ok(retorno);
