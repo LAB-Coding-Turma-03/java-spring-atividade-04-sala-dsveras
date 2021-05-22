@@ -27,8 +27,15 @@ public class RepeticaoController {
 		 *  
 		 */
 		
+		String retorno="";
 		
-		return ResponseEntity.ok(<APÓS O ALGORITMO COLOCAR A VARIAVEL String DE RETORNO AQUI>);
+	
+		for (int contador=1; contador <= numero; contador ++){
+			retorno = retorno + contador;
+			//contador = contador +1;
+		}
+		
+		return ResponseEntity.ok(retorno);
 	}
 	
 }
